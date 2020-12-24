@@ -1,0 +1,32 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "Selenium test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palina-Dzmitrovich/Selenium.git"
+  },
+  "keywords": [
+    "Selenium",
+    "Webdriver"
+  ],
+  "author": "Palina Dzmitrovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Palina-Dzmitrovich/Selenium/issues"
+  },
+  "homepage": "https://github.com/Palina-Dzmitrovich/Selenium#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "chromedriver": "^87.0.4280.88"
+  }
+}
