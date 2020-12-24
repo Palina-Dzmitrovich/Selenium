@@ -54,11 +54,9 @@ describe('`Contact Us` obligatory fields', function() {
             let activeInput = await browser.executeScript('return document.activeElement.id');
 
             expect(activeInput).to.equal(await epamPage.personalInfoCheckBox.element.getAttribute('id'));
-            
 
-
-
-            
+            await browser.quit();
+                      
 
         });
   });
